@@ -1,4 +1,4 @@
-# FastAPI + Docker Example
+# FastAPI + Docker Template Example
 
 This project is a minimal Python backend using [FastAPI](https://fastapi.tiangolo.com/) that can be run both locally and inside a Docker container. It provides a simple API endpoint and is ready for extension.
 
