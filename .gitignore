@@ -73,5 +73,6 @@ coverage.xml
 .DS_Store
 
 # dotenv
-.env
+# .env is tracked for project configuration, but .env.* are ignored for safety
+!.env
 .env.*

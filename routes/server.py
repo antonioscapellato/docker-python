@@ -5,6 +5,10 @@ router = APIRouter(prefix="/server", tags=["server"])
 import platform
 from datetime import datetime
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 @router.get("/info")
 def get_server_info():
@@ -18,4 +22,5 @@ def get_server_info():
         "hostname": platform.node(),
         "cwd": os.getcwd(),
         "timestamp": datetime.now().isoformat(),
+        "project_version": os.getenv("PROJECT_VERSION", "unknown")
     }
