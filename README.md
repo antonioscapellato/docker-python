@@ -46,11 +46,11 @@ This project is a minimal Python backend using [FastAPI](https://fastapi.tiangol
     - Edit the `.env` file before building the image. Docker will copy this file into the container.
 2. **Build the Docker image:**
     ```bash
-    docker build -t docker-python .
+    docker build -t fastapi-docker-template .
     ```
 3. **Run the Docker container:**
     ```bash
-    docker run -p 8000:8000 docker-python
+    docker run -p 8000:8000 fastapi-docker-template
     ```
 4. **Access the API:**
     - Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
