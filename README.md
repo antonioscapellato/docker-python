@@ -78,4 +78,6 @@ This project is a minimal Python backend using [FastAPI](https://fastapi.tiangol
 
 ---
 
-Feel free to use this as a template for your own projects!
+Feel free to use this as a template for your own projects! 
+
+By [Antonio Scapellato](https://scapellato.dev)
